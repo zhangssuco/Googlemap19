@@ -89,6 +89,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .snippet("2")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
 
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(Oneonta));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(Stonybrook));
 
         // add all suny campus!!! make them clickable
